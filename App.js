@@ -1,8 +1,7 @@
 import * as React from 'react';
 import {ScrollView, View, StatusBar, Text, StyleSheet} from 'react-native';
 import TodayScreen from './src/screens/TodayScreen';
-
-import GetWeatherReport from './src/utils/GetWeatherReport';
+import TomorrowScreen from './src/screens/TomorrowScreen';
 import {BottomNavigation} from 'react-native-paper';
 // import GetLocation from 'react-native-get-location';
 
@@ -21,10 +20,6 @@ import {BottomNavigation} from 'react-native-paper';
 //       console.error(error.code, error.message);
 //     });
 // };
-
-const TomorrowScreen = () => {
-  return <Text>{'getWeatherFromApi'}</Text>;
-};
 
 const Last5DaysScreen = () => {
   return <Text>{'name'}</Text>;

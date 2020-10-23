@@ -1,6 +1,6 @@
 export const weatherConditions = {
 	Rain: {
-		color: 'blue',
+		color: 'dodgerblue',
 		title: 'Raining'
 	},
 	Clear: {
@@ -12,7 +12,7 @@ export const weatherConditions = {
 		title: 'A Storm is coming'
 	},
 	Clouds: {
-		color: 'white',
+		color: 'aqua',
 		title: 'Clouds'
 	},
 	Drizzle: {

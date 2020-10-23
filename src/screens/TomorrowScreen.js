@@ -1,17 +1,18 @@
 import React, {Component} from 'react';
 import GetWeatherReport from '../utils/GetWeatherReport';
+import {ONE_DAY} from '../utils/Constants';
 
-export default class TodayScreen extends Component {
+export default class TomorrowScreen extends Component {
   today = Date.parse(new Date());
-  //  tomorrow = today + ONE_DAY;
-  // alert(tomorrow);
+  tomorrow = this.today + ONE_DAY;
+
   render() {
     return (
       <GetWeatherReport
         lat="13.7117"
         lon="75.8106"
-        dateInMillis={this.today}
-        fromScreen={0}
+        dateInMillis={this.tomorrow}
+        fromScreen={1}
       />
     );
   }
